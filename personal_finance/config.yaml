@@ -1,6 +1,6 @@
 # Published from the private personal-finance repo (addon/config.yaml). Edit it there.
 name: Personal Finance
-version: "0.0.1"
+version: "0.1.0"
 slug: personal_finance
 description: Private personal finance site (FastAPI + Angular) backed by MariaDB.
 url: https://github.com/JaredWalton99/personal-finance
@@ -16,12 +16,14 @@ ports_description:
   8099/tcp: Finance web app
 webui: http://[HOST]:[PORT:8099]/
 options:
+  app_password: ""
   db_host: core-mariadb
   db_port: 3306
   db_name: finance
   db_user: finance
   db_password: ""
 schema:
+  app_password: password
   db_host: str
   db_port: port
   db_name: str
