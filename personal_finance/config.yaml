@@ -10,7 +10,6 @@ image: ghcr.io/jaredwalton99/personal-finance
 init: false
 startup: application
 boot: auto
-# Home network only for now: a local port, no Ingress yet.
 ports:
   8099/tcp: 8099
 ports_description:
