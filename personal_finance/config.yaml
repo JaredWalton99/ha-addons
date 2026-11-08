@@ -1,6 +1,6 @@
 # Published from the private personal-finance repo (addon/config.yaml). Edit it there.
 name: Personal Finance
-version: "0.5.0"
+version: "0.6.0"
 slug: personal_finance
 description: Private personal finance site (FastAPI + Angular) backed by MariaDB.
 url: https://github.com/JaredWalton99/personal-finance
