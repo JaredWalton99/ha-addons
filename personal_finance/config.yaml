@@ -1,6 +1,6 @@
 # Published from the private personal-finance repo (addon/config.yaml). Edit it there.
 name: Personal Finance
-version: "0.11.0"
+version: "0.12.0"
 slug: personal_finance
 description: Private personal finance site (FastAPI + Angular) backed by MariaDB.
 url: https://github.com/JaredWalton99/personal-finance
@@ -24,6 +24,9 @@ options:
   db_name: finance
   db_user: finance
   db_password: ""
+  plaid_client_id: ""
+  plaid_secret: ""
+  plaid_env: sandbox
 schema:
   https_names:
     - str
@@ -33,3 +36,6 @@ schema:
   db_name: str
   db_user: str
   db_password: password?
+  plaid_client_id: password?
+  plaid_secret: password?
+  plaid_env: list(sandbox|production)?
