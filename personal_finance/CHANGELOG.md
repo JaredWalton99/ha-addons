@@ -2,6 +2,12 @@
 
 Home Assistant shows this file on the add-on's update screen. Newest first.
 
+## 0.13.0
+
+- Statements upload themselves from the Mac: Apple Card, Apple Savings, EveryDollar, Chase and Fidelity exports saved to Downloads are sent to the site and moved to Downloads/Imported. Install it once with mac/install.sh (see mac/README.md).
+- Clean files import on their own. A file that needs a look (skipped rows, unknown account) waits in "Waiting for review" on the Import page, with Import, Open in importer and Discard.
+- Upload tokens on the People page (admins): the Mac's key, which can only upload files and can be revoked at any time.
+
 ## 0.12.1
 
 - Fixed: after an update, a Finance tab that was already open could stop loading pages. It now reloads itself onto the new version.
