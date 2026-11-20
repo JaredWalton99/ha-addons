@@ -2,6 +2,12 @@
 
 Home Assistant shows this file on the add-on's update screen. Newest first.
 
+## 0.15.0
+
+- Fixed: some Fidelity 401(k) contributions were skipped because the database treated two different Plaid IDs as the same when they differed only in upper or lower case. Plaid IDs are now compared exactly, and the next Fidelity sync saves the missing ones.
+- Connections: an "Add account" button at the end of each row that doesn't feed an account yet, instead of a choice in the list.
+- Connections: "Syncing…" shows only on the connection that is syncing, and never on one whose last sync failed.
+
 ## 0.14.1
 
 - Fixed: a Fidelity sync could fail with "Saving balances or investments failed" when one investment transaction clashed with a row already saved. That row is now skipped (and noted in the add-on log) and the rest of the sync saves.
