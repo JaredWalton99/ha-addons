@@ -2,6 +2,10 @@
 
 Home Assistant shows this file on the add-on's update screen. Newest first.
 
+## 0.18.0
+
+- Reminders can now be yearly. The first one: "Check whether Apple Card can sync automatically", due every July 1, with what to look at. Mark it done once checked.
+
 ## 0.17.0
 
 - Documents page (Books): mortgage statement PDFs are kept on the Pi and read automatically. Each statement adds the mortgage balance to Net worth, and a Mortgage table shows principal, interest and escrow paid, extra principal and the escrow balance, with this year's totals. The first statement creates the mortgage account.
