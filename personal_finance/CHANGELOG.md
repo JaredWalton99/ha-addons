@@ -2,6 +2,12 @@
 
 Home Assistant shows this file on the add-on's update screen. Newest first.
 
+## 0.13.1
+
+- Fixed: connecting a bank failed with "client_user_id should not contain sensitive information" when the signed-in username was an email address.
+- Plaid keys pasted with a stray space or line break now work.
+- The Mac uploader sends through the Mac's built-in curl, which accepts the home certificate.
+
 ## 0.13.0
 
 - Statements upload themselves from the Mac: Apple Card, Apple Savings, EveryDollar, Chase and Fidelity exports saved to Downloads are sent to the site and moved to Downloads/Imported. Install it once with mac/install.sh (see mac/README.md).
