@@ -2,6 +2,11 @@
 
 Home Assistant shows this file on the add-on's update screen. Newest first.
 
+## 0.19.0
+
+- Audit: EveryDollar investment rows (HSA, 401k) and rows with no account can't be matched to a bank row, so they're now listed under a collapsed "Not checked" section instead of counting as items that need a look.
+- Audit: the current month is marked "In progress", since the bank and EveryDollar are still filling it in. The page now opens on the oldest finished month with work left.
+
 ## 0.18.1
 
 - Fixed: loading the Excel history again from a re-saved copy of the workbook now says it's already loaded, instead of failing with an error.
