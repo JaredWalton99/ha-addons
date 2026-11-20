@@ -2,6 +2,10 @@
 
 Home Assistant shows this file on the add-on's update screen. Newest first.
 
+## 0.18.1
+
+- Fixed: loading the Excel history again from a re-saved copy of the workbook now says it's already loaded, instead of failing with an error.
+
 ## 0.18.0
 
 - Reminders can now be yearly. The first one: "Check whether Apple Card can sync automatically", due every July 1, with what to look at. Mark it done once checked.
