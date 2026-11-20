@@ -2,6 +2,11 @@
 
 Home Assistant shows this file on the add-on's update screen. Newest first.
 
+## 0.14.1
+
+- Fixed: a Fidelity sync could fail with "Saving balances or investments failed" when one investment transaction clashed with a row already saved. That row is now skipped (and noted in the add-on log) and the rest of the sync saves.
+- "New account from this" names the account after Plaid's description of it instead of a generic "Investment".
+
 ## 0.14.0
 
 - Connections: "New account from this" in the Feeds list adds a site account for a bank or retirement account that doesn't have one yet (name, type and last 4 digits come from Plaid) and starts feeding it right away.
