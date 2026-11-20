@@ -2,6 +2,10 @@
 
 Home Assistant shows this file on the add-on's update screen. Newest first.
 
+## 0.13.2
+
+- Fixed: removing a bank connection, or choosing its accounts, could fail if a sync was running at that moment. It now waits for the sync to finish.
+
 ## 0.13.1
 
 - Fixed: connecting a bank failed with "client_user_id should not contain sensitive information" when the signed-in username was an email address.
