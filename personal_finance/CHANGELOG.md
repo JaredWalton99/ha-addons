@@ -2,6 +2,11 @@
 
 Home Assistant shows this file on the add-on's update screen. Newest first.
 
+## 0.14.0
+
+- Connections: "New account from this" in the Feeds list adds a site account for a bank or retirement account that doesn't have one yet (name, type and last 4 digits come from Plaid) and starts feeding it right away.
+- Fixed: a sync could stay on "Syncing…" forever if Plaid never answered a request, and any change on Connections then failed. Each request to Plaid now gives up after 2 minutes, and the next sync tries again.
+
 ## 0.13.2
 
 - Fixed: removing a bank connection, or choosing its accounts, could fail if a sync was running at that moment. It now waits for the sync to finish.
