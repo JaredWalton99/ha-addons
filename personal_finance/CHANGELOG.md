@@ -2,6 +2,12 @@
 
 Home Assistant shows this file on the add-on's update screen. Newest first.
 
+## 0.17.0
+
+- Documents page (Books): mortgage statement PDFs are kept on the Pi and read automatically. Each statement adds the mortgage balance to Net worth, and a Mortgage table shows principal, interest and escrow paid, extra principal and the escrow balance, with this year's totals. The first statement creates the mortgage account.
+- The Mac uploader sends mortgage statement PDFs from Downloads too.
+- Pensions: a new pension account type. A pension's amount is its estimated monthly benefit, so it is no longer added to Net worth; Net worth lists it separately ("$X/month from age N"). Set the starting age on Accounts. Plaid pension accounts switch to this type on their own.
+
 ## 0.16.0
 
 - Accounts: a new Updated column shows when each account last got new data, either a Plaid sync or an import (from the Import page or the Mac), or "Never". When an account has both, hovering shows the other one.
