@@ -2,6 +2,10 @@
 
 Home Assistant shows this file on the add-on's update screen. Newest first.
 
+## 0.16.0
+
+- Accounts: a new Updated column shows when each account last got new data, either a Plaid sync or an import (from the Import page or the Mac), or "Never". When an account has both, hovering shows the other one.
+
 ## 0.15.0
 
 - Fixed: some Fidelity 401(k) contributions were skipped because the database treated two different Plaid IDs as the same when they differed only in upper or lower case. Plaid IDs are now compared exactly, and the next Fidelity sync saves the missing ones.
