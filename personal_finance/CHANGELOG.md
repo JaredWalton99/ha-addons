@@ -2,6 +2,11 @@
 
 Home Assistant shows this file on the add-on's update screen. Newest first.
 
+## 0.20.0
+
+- New on the dashboard: Top variable expenses. Your biggest spending categories and payees for a month, compared with the month before and with your 12-month average. Recurring bills, transfers and card payments are left out.
+- Audit: "Amount differs" now only pairs rows whose amounts are close (within $25 or 25%) and whose payee really matches, so unrelated rows that share a word like "Apple" or "Payment" are no longer paired.
+
 ## 0.19.0
 
 - Audit: EveryDollar investment rows (HSA, 401k) and rows with no account can't be matched to a bank row, so they're now listed under a collapsed "Not checked" section instead of counting as items that need a look.
