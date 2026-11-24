@@ -2,6 +2,12 @@
 
 Home Assistant shows this file on the add-on's update screen. Newest first.
 
+## 0.21.0
+
+- New Debt page. Enter your mortgage's loan details once (from the closing disclosure) and see the balance, rate, payment, months left, payoff date and interest left, plus how far ahead of the original schedule your extra payments put you. Escrow is shown beside the payment but kept out of the payoff math.
+- Full amortization table, from today or from the start of the loan, with a CSV download.
+- The page warns when the saved rate or payment doesn't match the latest mortgage statement.
+
 ## 0.20.0
 
 - New on the dashboard: Top variable expenses. Your biggest spending categories and payees for a month, compared with the month before and with your 12-month average. Recurring bills, transfers and card payments are left out.
