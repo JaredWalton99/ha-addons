@@ -2,6 +2,13 @@
 
 Home Assistant shows this file on the add-on's update screen. Newest first.
 
+## 0.22.0
+
+- Debt page: a payoff chart showing the original schedule, your actual balance and your plan, with today marked.
+- What-if: try an extra amount each month or one-time lump sums and see the new payoff date, months saved and interest saved. Save a plan to make it the page's default.
+- Pay down or invest: set an expected return and see, side by side, what you'd have if you put the extra toward the mortgage versus investing it instead.
+- New reminder: if a mortgage payment hasn't shown up 5 days after it's due, the Reminders page says so.
+
 ## 0.21.0
 
 - New Debt page. Enter your mortgage's loan details once (from the closing disclosure) and see the balance, rate, payment, months left, payoff date and interest left, plus how far ahead of the original schedule your extra payments put you. Escrow is shown beside the payment but kept out of the payoff math.
