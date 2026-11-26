@@ -2,6 +2,11 @@
 
 Home Assistant shows this file on the add-on's update screen. Newest first.
 
+## 0.25.0
+
+- New Investments page: what your investments are worth, how much of the change was money you put in and how much was market growth, and the return for this year, the last 12 months or since the start (money added during the period doesn't inflate the return).
+- A chart of value against money put in, allocation by holding type, a table by account, and your largest holdings.
+
 ## 0.24.0
 
 - New Balance sheet page: everything you own and owe on any date, grouped into cash, investments, loans and cards, with subtotals and net worth, compared with an earlier date (a year earlier by default). Its numbers match the Net worth page. Pensions are listed separately as a monthly benefit.
