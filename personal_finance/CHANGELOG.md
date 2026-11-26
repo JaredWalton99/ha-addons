@@ -2,6 +2,11 @@
 
 Home Assistant shows this file on the add-on's update screen. Newest first.
 
+## 0.23.0
+
+- New Goals page. Turn any savings fund into a goal with a target amount and date, and see how much is saved, the percent done, how much is needed each month versus what you budget, the projected finish date, and whether you're on track.
+- Each goal has a chart of what's saved, the path to the target, and where your current rate leads. Reorder goals to set priorities.
+
 ## 0.22.0
 
 - Debt page: a payoff chart showing the original schedule, your actual balance and your plan, with today marked.
