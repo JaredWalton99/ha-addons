@@ -2,6 +2,10 @@
 
 Home Assistant shows this file on the add-on's update screen. Newest first.
 
+## 0.24.0
+
+- New Balance sheet page: everything you own and owe on any date, grouped into cash, investments, loans and cards, with subtotals and net worth, compared with an earlier date (a year earlier by default). Its numbers match the Net worth page. Pensions are listed separately as a monthly benefit.
+
 ## 0.23.0
 
 - New Goals page. Turn any savings fund into a goal with a target amount and date, and see how much is saved, the percent done, how much is needed each month versus what you budget, the projected finish date, and whether you're on track.
